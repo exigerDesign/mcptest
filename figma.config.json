@@ -1,0 +1,8 @@
+{
+  "codeConnect": {
+    "parser": "html",
+    "include": ["src/app/**/*.ts"],
+    "exclude": ["node_modules/**", "dist/**", "**/*.spec.ts"],
+    "label": "Angular"
+  }
+}

@@ -1,0 +1,32 @@
+.page-container {
+  display: flex;
+  height: 100vh;
+}
+
+.main-container {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: var(--surface-subtle-rest);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-panel {
+  background-color: var(--surface-base-rest);
+  border-radius: 12px;
+  border: 1px solid var(--stroke-muted-rest);
+  padding: var(--spacing-xl);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 420px;
+}

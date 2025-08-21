@@ -7,8 +7,7 @@
     "types": []
   },
   "include": [
-    "src/**/*.ts"
-  ],
+    "src/**/*.ts" , "src/app/shared/components/button/button.figma.ts", "src/app/shared/components/text-field-input/text-field-input.figma.ts"  ],
   "exclude": [
     "src/**/*.spec.ts"
   ]
